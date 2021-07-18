@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(209,225,241);
+  margin-left: 120px;
+  margin-right: 120px;
+  border-bottom: 5px;
+}
+
+.center {
+  display: block;
+  width: 100%;
+}
+
+a {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+a:link    { color:  black;  }
+a:visited { color:  lightcoral;   }
+a:hover   { color:  darkblue; }
+a:active  { color:  darkseagreen;  }
+
+.Top  {
+  margin-left: auto;
+  text-align: center;
+  background-color: white;
+  margin-top: 10px; 
+}
+
+hr {
+  width: 35px;
+  height: 15px;
+  border: none;
+  background: lightcoral;
+  color: #000;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}

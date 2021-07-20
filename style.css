@@ -5,6 +5,10 @@ body {
   border-bottom: 5px;
 }
 
+/*
+.center us used to center header, footer, and image.
+*/
+
 .center {
   display: block;
   width: 100%;
@@ -12,13 +16,16 @@ body {
 
 a {
   font-family: Arial, sans-serif;
-  font-size: 15px;
+  font-size: 15px; 
 }
 
 a:link    { color:  black;  }
 a:visited { color:  lightcoral;   }
 a:hover   { color:  darkblue; }
 a:active  { color:  darkseagreen;  }
+/* 
+.Top command is the settings for header and footer display.
+*/
 
 .Top  {
   margin-left: auto;
@@ -26,13 +33,16 @@ a:active  { color:  darkseagreen;  }
   background-color: white;
   margin-top: 10px; 
 }
+/*
+I used a styled horizontal rule to seperate information
+*/
 
 hr {
-  width: 35px;
-  height: 15px;
+  width: 30px;
+  height: 5px;
   border: none;
   background: lightcoral;
   color: #000;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 20px;
 }
